@@ -1,0 +1,36 @@
+{
+  "name": "slacksnax-slackcommand",
+  "version": "1.0.0",
+  "description": "More Slackin' For Snackin'",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc",
+    "postinstall": "npm run build",
+    "test": "tsc && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willowtreeapps/slacksnax-slackCommand.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willowtreeapps/slacksnax-slackCommand/issues"
+  },
+  "homepage": "https://github.com/willowtreeapps/slacksnax-slackCommand#readme",
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "@types/request": "^2.48.1",
+    "@types/request-promise": "^4.1.42",
+    "express": "^4.16.4",
+    "node-tsc": "0.0.14",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "ts": "^0.2.2"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.6"
+  }
+}
