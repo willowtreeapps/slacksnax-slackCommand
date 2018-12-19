@@ -24,6 +24,7 @@
     "@types/request": "^2.48.1",
     "@types/request-promise": "^4.1.42",
     "express": "^4.16.4",
+    "lodash": "^4.17.11",
     "node-tsc": "0.0.14",
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
